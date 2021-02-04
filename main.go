@@ -10,7 +10,7 @@ import (
 
 type DefaultConfig struct {
 	Name    string `default:"ipip-grpc"`
-	Address string `default:"localhost:5000"`
+	Address string `default:"0.0.0.0:5000"`
 }
 
 func main() {
